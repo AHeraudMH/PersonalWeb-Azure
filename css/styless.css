@@ -122,6 +122,10 @@ h1, h2, h3 {
         flex-direction: row;
         justify-content: space-between;
     }
+    .servicios{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 @media (min-width: 1140px){
